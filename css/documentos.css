@@ -1,0 +1,195 @@
+body {
+	background: #ffbf75;
+	font-family: georgia, times, serif;
+	color: #333;
+	font-size: 1.2rem;
+	line-height: 1.1em;
+	margin: 0;
+}
+h1{
+	font-size: 2rem;
+	line-height: 1.3em;
+	 font-size: 50px;
+}
+p{
+
+	font-size: 25px;
+}
+.container{
+	width: 85%;
+	max-width: 850px;
+	margin: 0 auto;
+}
+.header{
+	background:#759eff;
+	color: white;
+	padding: 2rem 0;
+
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+.container iframe {
+	margin: auto;
+	
+	width: 400px;
+	height: 50vh;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header a{
+ color: white;
+ text-decoration: none;
+}
+.logo-nav-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+.logo{
+letter-spacing: 5px;	
+font-size: 1,4em;
+
+}
+.logo img{
+ height:50px;
+ width: 50px;
+
+}
+.menu-icon{
+	display: none;
+}
+.navigation ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+	.navigation ul li{
+		display: inline-block;
+		padding: 10px;
+	}
+	.navigation ul li a{
+		display: block;
+		padding: 0.5rem 1 rem;
+		transition: all 0.4s linear;
+		border-radius: 5px;
+	}
+		.navigation ul li a:hover{
+		background: #75c7ff;
+	}
+.main{
+	padding-top:12rem ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+      
+      bottom: 0;
+  
+    
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+    
+
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 200px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+.menu-icon{
+	display: block;
+	cursor: pointer;
+	padding: 0.5rem 1 rem;
+}
+.navigation ul{
+	display: none;
+}
+.navigation ul.show{
+	display:block ;
+}
+ .navigation{
+ 	width: 100%;
+ 	margin-top: 1rem;
+ }
+	.navigation ul li{
+		display: block;
+	}
+	.navigation ul li a{
+		display: block;
+		padding: 0.5rem 0;
+		transition: all 0.4s linear;
+		border-radius: 5px;
+	}
+		.navigation ul li a:hover{
+		background: #ffbf75;
+	}
+}

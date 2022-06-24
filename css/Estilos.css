@@ -1,0 +1,124 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.izquierda{
+background-image: url(../imagenes/Login.jpg);
+background-size: cover;
+background-position:center;
+width: 50%;
+left: 100vh;
+
+}
+.derecha{
+	background:#75c7ff;
+	height: 100vh;
+	width: 50%;
+
+}
+#pantalla-dividida{
+	display: flex;
+}
+
+input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.login-form h4 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 20px;
+  color: #1a1a1a;
+}
+.margen{
+	margin: 50px;
+}
+button {
+  outline: 0;
+  background: #EF3B3A;
+  width: 50%;
+  border: 0;
+  padding: 15px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color:#000000 ;
+  font-size: 14px;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+p{
+	text-align: center;
+}
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+.texto p{
+	color:#ffffcc;
+	margin-top: 10px;
+	font-size: 20px;
+	font-family: 'century gothic';
+	text-shadow: 0 0 1px #fff,
+				 0 0 2px #fff,
+				 0 0 3px green,
+				 0 0 4px green,
+				 0 0 5px green,
+				 0 0 6px green,
+				 0 0 7px green;
+}
+.logo{
+	margin: 50px;
+
+}
+img{
+	max-width: 30%;
+	max-height: 30%;
+	margin: 20px;
+}
+.Logo1{
+  width: 100%;
+  height: 80px;
+  background-color:#e28000 ;
+}
+.banco h4{
+margin: 0 0 15px;
+  padding: 0;
+  font-size: 20px;
+  color: #1a1a1a;
+}
+.marca{
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+ iframe {
+  margin: auto;
+  
+  width: 800px;
+  height: 80vh;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

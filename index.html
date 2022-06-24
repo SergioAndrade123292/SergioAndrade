@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Validated Login Form</title>
+	<link rel="stylesheet" href="css\login.css">
+	<link rel="shortcut icon" href="imagenes\favicon.webp">
+</head>
+<body>
+	<div class="container">
+		<h1 class="label">BIENVENIDO</h1>
+		<h2 class="label1">Residencia</h2>
+		<form class="login_form" action="paginas\Prevalidacion.html" method="post" name="form" onsubmit="return validated()">
+			<div class="font">Correo Electrónico</div>
+			<input autocomplete="off" type="text" name="email">
+			<div id="email_error">Por favor complete su correo electrónico</div>
+			<div class="font font2">Contraseña</div>
+			<input type="password" name="password">
+			<div id="pass_error">Complete su contraseña</div>
+			<a class="paginas\Prevalidacion.html"><button type="submit">Iniciar</button></a>
+		</form>
+	</div>	
+	<script src="js\valid.js"></script>
+</body>
+</html>
